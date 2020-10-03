@@ -1,0 +1,72 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(red, yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.bill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+.bill p {
+    font-size: 28px;
+    font-weight: 700;
+    position: relative;
+    left: 20px;
+    margin: 20px;
+}
+
+.bill input, select{
+    width: 30%;
+    position: relative;
+    left: 40px;
+}
+
+button {
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    position: relative;
+    left: 35%;
+    padding: 20px;
+    margin: 20px;
+    background-color:yellow;
+    border-radius: 5px;
+}
+
+
+.cal {
+    color: black;
+    text-align: center;
+    
+}
